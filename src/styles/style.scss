@@ -1,0 +1,67 @@
+:root {
+    --basic-azure: #00838F;
+    --basic-grey: #F2F2F2;
+    --grey: #4F4F4F;
+    --basic-blue: #2196F3;
+}
+
+.header {
+    background-color: var(--basic-azure);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    padding-left: 32px;
+    gap: 10px
+}
+
+.input {
+    background-color: var(--basic-grey);
+    width: 912px;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+.input::before {
+    display: none;
+}
+
+
+.button {
+    background-color: var(--basic-blue);
+    font-size: 15px;
+    line-height: 26px;
+    height: 40px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 854px;
+    background-color: white;
+}
+
+.main-text {
+    font-size: 46px;
+    line-height: 65px;
+    color: var(--grey);
+}
+
+.repos-block-data {
+    width: 40%;
+    background-color: var(--basic-grey);
+    height: 854px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.repos-desc {
+    color: var(--grey);
+    font-size: 20px;
+    line-height: 20px;
+}
