@@ -1,3 +1,4 @@
+// Возвращает данные для элемента DataGrid в виде массива из ответа сервера GitHub
 export const selectDataTable = (result: Array<object>) => {
     const rowsData: Array<object> = []
     if (result.length > 0) {
